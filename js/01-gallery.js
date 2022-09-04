@@ -84,7 +84,7 @@ let modalWindow = null;
     );
 
     modalWindow.show();
-  
+  }
 
   const addKeyboardControl = () => window.addEventListener('keydown', onWindowKeyDown);
   const removeKeyboardControl = () => window.removeEventListener('keydown', onWindowKeyDown);
@@ -104,7 +104,7 @@ let modalWindow = null;
   };
 
   galleryContainer.addEventListener('click', onGalleryContainerClick);
-}
+
 
 
 
