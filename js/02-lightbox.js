@@ -21,6 +21,6 @@ function creatElements(gallery) {
   return imageEl;
 }
 
-new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250, navText: ['←','→'] });
+new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250});
 
 console.log(galleryItems);
